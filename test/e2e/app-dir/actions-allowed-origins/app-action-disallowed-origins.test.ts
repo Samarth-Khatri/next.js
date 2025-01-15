@@ -7,8 +7,6 @@ describe('app-dir action disallowed origins', () => {
     files: join(__dirname, 'unsafe-origins'),
     skipDeployment: true,
     dependencies: {
-      react: '19.0.0-rc-81c5ff2e04-20240521',
-      'react-dom': '19.0.0-rc-81c5ff2e04-20240521',
       'server-only': 'latest',
     },
   })

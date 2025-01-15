@@ -6,8 +6,7 @@ describe('app-dir action handling - next export', () => {
     skipStart: true,
     skipDeployment: true,
     dependencies: {
-      react: '19.0.0-rc-81c5ff2e04-20240521',
-      'react-dom': '19.0.0-rc-81c5ff2e04-20240521',
+      nanoid: '4.0.1',
       'server-only': 'latest',
     },
   })
